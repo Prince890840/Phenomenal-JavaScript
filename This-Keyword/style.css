@@ -1,0 +1,17 @@
+body {
+  height: 900px;
+  width: 100%;
+  background: linear-gradient(18deg, rgba(108,101,237,1) 4%, rgba(63,186,117,1) 97%);
+  background-repeat: no-repeat;
+}
+
+section {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 600;
+  color: #fff;
+}
