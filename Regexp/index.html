@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>JavaScript Regular Expressions</h2>
+    <hr />
+
+    <p>toString() returns the string value of a RegExp object:</p>
+
+    <p id="demo"></p>
+    <hr />
+
+    <p>The test() method returns true if it finds a match, otherwise false.</p>
+
+    <p>Search a string for the character "e":</p>
+
+    <p id="demo1"></p>
+
+    <script>
+      let pattern = new RegExp("Hello World", "g");
+      let text = pattern.toString();
+
+      document.getElementById("demo").innerHTML = text;
+
+      let txt = "The best things in life are free";
+      let pattern1 = /e/;
+      let result = pattern1.test(txt);
+
+      document.getElementById("demo1").innerHTML = result;
+    </script>
+  </body>
+</html>
